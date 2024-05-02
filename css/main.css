@@ -1,5 +1,7 @@
 body {
   background-color: #fafafa;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 200px;
   padding-right: 200px;
   padding-top: 100px;
@@ -8,6 +10,8 @@ body {
 div#nav-bar {
   float: right;
   margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul#nav-buttons li {
@@ -23,10 +27,33 @@ ul#nav-buttons li {
   unicode-bidi: isolate;
 }
 
+.socials-bar {
+  margin-top: -150px;
+  margin-left: -45px;
+}
+
+ul#socials-buttons li {
+  display: inline;
+  list-style: none;
+  unicode-bidi: isolate;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 5px;
+}
+
+.social-icon {
+  width: 25px;
+  height: 25px;
+  filter: grayscale(100%);
+}
+
 .information-box {
   max-height: 700px;
   height: 500px;
   margin-top: 100px;
+  max-width: fit-content;
 }
 
 .picture > img {
@@ -39,7 +66,6 @@ ul#nav-buttons li {
 }
 
 .content {
-  background-color: #f5fcf7;
   box-shadow: 0px 0px 10px 5px #f2f4f5;
   font-size: 18px;
   font-family: sans-serif;
@@ -63,3 +89,4 @@ a {
 a:hover {
   color: blue;
 }
+
