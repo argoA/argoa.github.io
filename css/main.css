@@ -87,6 +87,8 @@ a {
 }
 
 a:hover {
+  -webkit-transition: color 300ms ease-in-out;
+  -moz-transition: color 300ms ease-in-out;
   color: blue;
 }
 
@@ -138,6 +140,6 @@ a:hover {
 
 /* This breaks GitHub */
 .project-image:hover {
-  -webkit-transform:scale(2);
-  transform:scale(2);
+  -webkit-transform: scale(2);
+  transform: scale(2);
 }
