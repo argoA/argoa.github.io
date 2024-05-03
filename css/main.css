@@ -1,5 +1,7 @@
-body {
+* {
   font-family: sans-serif;
+}
+body {
   background-color: #fafafa;
   margin-left: auto;
   margin-right: auto;
