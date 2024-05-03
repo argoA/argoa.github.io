@@ -138,6 +138,6 @@ a:hover {
 
 /* This breaks GitHub */
 .project-image:hover {
-  /*-webkit-transform:scale(2);*/
+  -webkit-transform:scale(2);
   transform:scale(2);
 }
