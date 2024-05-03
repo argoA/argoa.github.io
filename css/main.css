@@ -88,7 +88,7 @@ a {
 
 a:hover {
   color: #2176ff;
-  transition: 300ms;
+  transition: .3s;
 }
 
 .project-wrapper {
@@ -139,4 +139,5 @@ a:hover {
 
 .project-image:hover {
   transform: scale(2);
+  transition: all .5s ease-in-out;
 }
