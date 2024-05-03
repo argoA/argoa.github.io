@@ -109,9 +109,11 @@ a:hover {
 
 }
 
+/*
 .project-left-wrapper {
 
 }
+*/
 
 .project-content {
   padding: 10px;
@@ -129,9 +131,11 @@ a:hover {
   margin-right: 320px;
 }
 
+/*
 .project-right-wrapper > a {
   
 }
+*/
 
 .project-left-wrapper .project-image {
   border: 1px solid #000000;
