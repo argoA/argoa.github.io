@@ -1,4 +1,5 @@
 body {
+  font-family: sans-serif;
   background-color: #fafafa;
   margin-left: auto;
   margin-right: auto;
@@ -68,17 +69,16 @@ ul#socials-buttons li {
 .content {
   box-shadow: 0px 0px 10px 5px #f2f4f5;
   font-size: 18px;
-  font-family: sans-serif;
   border-radius: 9px;
   margin-left: 400px;
+  padding-top: 1px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 5px;
 }
 
-.name {
+.title {
   font-size: 30px;
-  padding-top: 10px;
 }
 
 a {
@@ -93,31 +93,25 @@ a:hover {
 .project-wrapper {
   margin-top: 100px;
   font-size: 18px;
-  
 }
 
 .projects-list > div {
   margin-bottom: 50px;
   padding-left: 5px;
-  padding-top: 5px;
   height: 209px;
 }
 
-.project-title {
-  font-size: 30px;
-
-}
-
 .project-content {
-  padding: 10px;
+  padding-top: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
   border-radius: 9px;
   box-shadow: 0px 0px 10px 5px #f2f4f5;
-  height: 185px;
+  height: 203px;
 }
 
 .project-content#project-left-content {
   margin-left: 320px;
-
 }
 
 .project-content#project-right-content {
@@ -142,7 +136,7 @@ a:hover {
   float: right;
 }
 
-/*
+/* This breaks GitHub
 .project-image:hover {
   -webkit-transform:scale(2);
   transform:scale(2);
